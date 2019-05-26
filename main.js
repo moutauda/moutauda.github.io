@@ -173,16 +173,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _mon_premier_mon_premier_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mon-premier/mon-premier.component */ "./src/app/mon-premier/mon-premier.component.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _accueil_accueil_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./accueil/accueil.component */ "./src/app/accueil/accueil.component.ts");
-/* harmony import */ var _appareil_appareil_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./appareil/appareil.component */ "./src/app/appareil/appareil.component.ts");
-/* harmony import */ var _auth_auth_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./auth/auth.component */ "./src/app/auth/auth.component.ts");
-/* harmony import */ var _appareil_view_appareil_view_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./appareil-view/appareil-view.component */ "./src/app/appareil-view/appareil-view.component.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _single_appareil_single_appareil_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./single-appareil/single-appareil.component */ "./src/app/single-appareil/single-appareil.component.ts");
-/* harmony import */ var _four_oh_four_four_oh_four_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./four-oh-four/four-oh-four.component */ "./src/app/four-oh-four/four-oh-four.component.ts");
-/* harmony import */ var _services_resultats_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./services/resultats.service */ "./src/app/services/resultats.service.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _mon_premier_mon_premier_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mon-premier/mon-premier.component */ "./src/app/mon-premier/mon-premier.component.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _accueil_accueil_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./accueil/accueil.component */ "./src/app/accueil/accueil.component.ts");
+/* harmony import */ var _appareil_appareil_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./appareil/appareil.component */ "./src/app/appareil/appareil.component.ts");
+/* harmony import */ var _auth_auth_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./auth/auth.component */ "./src/app/auth/auth.component.ts");
+/* harmony import */ var _appareil_view_appareil_view_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./appareil-view/appareil-view.component */ "./src/app/appareil-view/appareil-view.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _single_appareil_single_appareil_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./single-appareil/single-appareil.component */ "./src/app/single-appareil/single-appareil.component.ts");
+/* harmony import */ var _four_oh_four_four_oh_four_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./four-oh-four/four-oh-four.component */ "./src/app/four-oh-four/four-oh-four.component.ts");
+/* harmony import */ var _services_resultats_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./services/resultats.service */ "./src/app/services/resultats.service.ts");
+
 
 
 
@@ -202,8 +204,8 @@ __webpack_require__.r(__webpack_exports__);
 //import { AuthGuard } from './services/auth-guard.service';
 
 var appRoutes = [
-    { path: '', component: _accueil_accueil_component__WEBPACK_IMPORTED_MODULE_6__["AccueilComponent"] },
-    { path: 'not-found', component: _four_oh_four_four_oh_four_component__WEBPACK_IMPORTED_MODULE_12__["FourOhFourComponent"] },
+    { path: '', component: _accueil_accueil_component__WEBPACK_IMPORTED_MODULE_7__["AccueilComponent"] },
+    { path: 'not-found', component: _four_oh_four_four_oh_four_component__WEBPACK_IMPORTED_MODULE_13__["FourOhFourComponent"] },
     { path: '**', redirectTo: '/not-found' }
 ];
 var AppModule = /** @class */ (function () {
@@ -212,25 +214,26 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                _appareil_appareil_component__WEBPACK_IMPORTED_MODULE_7__["AppareilComponent"],
-                _appareil_view_appareil_view_component__WEBPACK_IMPORTED_MODULE_9__["AppareilViewComponent"],
-                _auth_auth_component__WEBPACK_IMPORTED_MODULE_8__["AuthComponent"],
-                _mon_premier_mon_premier_component__WEBPACK_IMPORTED_MODULE_4__["MonPremierComponent"],
-                _single_appareil_single_appareil_component__WEBPACK_IMPORTED_MODULE_11__["SingleAppareilComponent"],
-                _accueil_accueil_component__WEBPACK_IMPORTED_MODULE_6__["AccueilComponent"],
-                _four_oh_four_four_oh_four_component__WEBPACK_IMPORTED_MODULE_12__["FourOhFourComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+                _appareil_appareil_component__WEBPACK_IMPORTED_MODULE_8__["AppareilComponent"],
+                _appareil_view_appareil_view_component__WEBPACK_IMPORTED_MODULE_10__["AppareilViewComponent"],
+                _auth_auth_component__WEBPACK_IMPORTED_MODULE_9__["AuthComponent"],
+                _mon_premier_mon_premier_component__WEBPACK_IMPORTED_MODULE_5__["MonPremierComponent"],
+                _single_appareil_single_appareil_component__WEBPACK_IMPORTED_MODULE_12__["SingleAppareilComponent"],
+                _accueil_accueil_component__WEBPACK_IMPORTED_MODULE_7__["AccueilComponent"],
+                _four_oh_four_four_oh_four_component__WEBPACK_IMPORTED_MODULE_13__["FourOhFourComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 // AppRoutingModule,
-                _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"].forRoot(appRoutes),
-                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"]
+                _angular_router__WEBPACK_IMPORTED_MODULE_11__["RouterModule"].forRoot(appRoutes),
+                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"]
             ],
             providers: [
-                _services_resultats_service__WEBPACK_IMPORTED_MODULE_13__["ResultatsService"]
+                _services_resultats_service__WEBPACK_IMPORTED_MODULE_14__["ResultatsService"]
             ],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -714,144 +717,201 @@ var AuthService = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResultatsService", function() { return ResultatsService; });
-/* harmony import */ var rxjs_Subject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs/Subject */ "./node_modules/rxjs-compat/_esm5/Subject.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 
+
+
+//import { empty } from 'rxjs/Observer';
+//import { Producto } from '../models/producto';
+//import { GLOBAL } from './global';
 var ResultatsService = /** @class */ (function () {
-    function ResultatsService() {
-        this.appareilSubject = new rxjs_Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
-        this.resultats = [
-            {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            }, {
-                id: 1,
-                equipe1: 'Brésil',
-                score1: 0,
-                equipe2: 'Allemagne',
-                score2: 1
-            },
-        ];
-        /*
-        
-            emitAppareilSubject() {
-                this.appareilSubject.next(this.appareils.slice());
-            }
-        
-        
-            switchOnAll() {
-                for (let appareil of this.appareils) {
-                    appareil.status = 'allumé'
-                }
-                this.emitAppareilSubject();
-            }
-        
-            switchOffAll() {
-                for (let appareil of this.appareils) {
-                    appareil.status = 'éteint'
-                }
-                this.emitAppareilSubject();
-            }
-        
-            switchOnOne(index: number) {
-                this.appareils[index].status = 'allumé';
-                this.emitAppareilSubject();
-            }
-        
-            switchOffOne(index: number) {
-                this.appareils[index].status = 'éteint';
-                this.emitAppareilSubject();
-            } */
-    }
-    ResultatsService.prototype.getAppareilById = function (id) {
-        var appareil = this.resultats.find(function (appareilObject) {
-            return appareilObject.id === id;
+    function ResultatsService(http) {
+        this.http = http;
+        this.url = 'http://s00vl9977475:9051';
+        this.getJSON().subscribe(function (data) {
+            console.log(data);
+            //this.url = data.server;
         });
-        return appareil;
+    }
+    ResultatsService.prototype.getJSON = function () {
+        return this.http.get("assets/resultats.json");
     };
     ResultatsService.prototype.getAll = function () {
-        return this.resultats;
     };
+    /*
+    
+     getData(){
+            let headers = new HttpHeaders();
+            headers  = headers.append('header-1', 'value-1');
+            headers  = headers.append('header-2', 'value-2');
+    
+           let params = new HttpParams();
+           params = params.append('header-1', 'value-1');
+           params = params.append('header-2', 'value-2');
+    
+           this.httpClient.get("/data", {headers , params })
+       }
+    
+       public get(searchParam: string): Observable<object> {
+    let headers = new Headers({ 'Content-Type': 'application/json' });
+        let myParams = HttpParams().set("id", searchParam);
+    
+        let options = new RequestOptions({ headers: headers, method: 'get', params: myParams });
+    
+    return this.http.get("this.url",options)
+             .map((res: Response) => res.json())
+             .catch(this.handleError);
+    }
+    
+    */
+    // public createCase(typeName : String, businessKey : String, owner : String): Observable<any>{
+    //   return this.http.post('http://s00vl9977475:18090/case-services/case/create', {meta : null , data : { typeName : typeName, businessKey : businessKey , owner : owner }}, { observe: 'response' }
+    // );
+    // }
+    //2019-08-30T10:00:00.000+0200
+    ResultatsService.prototype.updateCase = function (caseId, caseDueDate, caseFollowUpDate, caseOwner) {
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/json');
+        var url = this.url + "/case-services/cases/" + caseId + "?";
+        if (caseDueDate) {
+            url += "caseDueDate=" + encodeURIComponent(caseDueDate);
+        }
+        else {
+            url += "caseDueDate=";
+        }
+        if (caseFollowUpDate) {
+            url += "&caseFollowUpDate=" + encodeURIComponent(caseFollowUpDate);
+        }
+        else {
+            url += "&caseFollowUpDate=";
+        }
+        if (caseOwner) {
+            url += "&caseOwner=" + caseOwner;
+        }
+        else {
+            url += "&caseOwner=";
+        }
+        return this.http.patch(url, null, { observe: 'response' });
+    };
+    ResultatsService.prototype.updateActivity = function (caseId, activityId, caseDueDate, caseFollowUpDate, caseOwner) {
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/json');
+        var url = this.url + "/case-services/cases/" + caseId + "/activities/" + activityId + "?";
+        if (caseDueDate) {
+            url += "activityDueDate=" + encodeURIComponent(caseDueDate);
+        }
+        else {
+            url += "activityDueDate=";
+        }
+        if (caseFollowUpDate) {
+            url += "&activityFollowUpDate=" + encodeURIComponent(caseFollowUpDate);
+        }
+        else {
+            url += "&activityFollowUpDate=";
+        }
+        if (caseOwner) {
+            url += "&activityAssignee=" + caseOwner;
+        }
+        else {
+            url += "&activityAssignee=";
+        }
+        return this.http.put(url, null, { observe: 'response' });
+    };
+    ResultatsService.prototype.createCommentCase = function (caseId, commentaire) {
+        var date = new Date();
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/json');
+        return this.http.post(this.url + '/case-services/cases/' + caseId + "/comments", "{ \"comment\" : \"" + commentaire + "\", \"commentDate\" : \"" + date.toLocaleDateString() + " " + date.toLocaleTimeString() + "\", \"userName\" : \"Ihm Demo\", \"userId\" : \"ihmDemo\" }", { observe: 'response', headers: headers });
+    };
+    ResultatsService.prototype.createCase = function (caseType, caseBusinessKey, caseOwner, caseContext) {
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/json');
+        if (caseOwner != "" && caseContext != "") {
+            return this.http.post(this.url + '/case-services/cases?caseType=' + caseType + '&caseBusinessKey=' + caseBusinessKey + '&caseOwner=' + caseOwner, caseContext, { observe: 'response', headers: headers });
+        }
+        else if (caseOwner != "" && caseContext == "") {
+            return this.http.post(this.url + '/case-services/cases?caseType=' + caseType + '&caseBusinessKey=' + caseBusinessKey + '&caseOwner=' + caseOwner, null, { observe: 'response', headers: headers });
+        }
+        else if (caseOwner == "" && caseContext != "") {
+            return this.http.post(this.url + '/case-services/cases?caseType=' + caseType + '&caseBusinessKey=' + caseBusinessKey, caseContext, { observe: 'response', headers: headers });
+        }
+        return this.http.post(this.url + '/case-services/cases?caseType=' + caseType + '&caseBusinessKey=' + caseBusinessKey, null, { observe: 'response', headers: headers });
+    };
+    ResultatsService.prototype.getCase = function (caseInstance) {
+        var _this = this;
+        if (this.url == undefined) {
+            this.getJSON().subscribe(function (data) {
+                console.log('Alex' + data.server);
+                return _this.http.get(data.server + '/case-services/cases/' + caseInstance, { observe: 'response' });
+            });
+        }
+        else {
+            return this.http.get(this.url + '/case-services/cases/' + caseInstance, { observe: 'response' });
+        }
+    };
+    ResultatsService.prototype.getContext = function (caseInstance) {
+        return this.http.get(this.url + '/case-services/cases/' + caseInstance + '/context?type=caseId', { observe: 'response' });
+    };
+    ResultatsService.prototype.getActivity = function (caseInstance, caseActivity) {
+        return this.http.get(this.url + '/case-services/cases/' + caseInstance + '/activities/' + caseActivity, { observe: 'response' });
+    };
+    ResultatsService.prototype.getActivities = function (caseInstance) {
+        return this.http.get(this.url + '/case-services/cases/' + caseInstance + '/activities', { observe: 'response' });
+    };
+    ResultatsService.prototype.getComments = function (caseInstance) {
+        return this.http.get(this.url + '/case-services/cases/' + caseInstance + '/comments', { observe: 'response' });
+    };
+    ResultatsService.prototype.terminateCase = function (caseInstance) {
+        return this.http.post(this.url + '/case-services/cases/' + caseInstance + '/terminate/', null, { observe: 'response' });
+    };
+    ResultatsService.prototype.terminateActivity = function (caseInstance, caseActivity, caseContext) {
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/json');
+        if (caseContext) {
+            return this.http.post(this.url + '/case-services/cases/' + caseInstance + '/activities/' + caseActivity, caseContext, { observe: 'response', headers: headers });
+        }
+        else {
+            return this.http.post(this.url + '/case-services/cases/' + caseInstance + '/activities/' + caseActivity, null, { observe: 'response' });
+        }
+    };
+    ResultatsService.prototype.activateActivity = function (caseInstance, activityId) {
+        return this.http.patch(this.url + '/case-services/cases/' + caseInstance + '/activities/' + activityId, null, { observe: 'response' });
+    };
+    ResultatsService.prototype.getCaseBusiness = function (businessKey) {
+        return this.http.get(this.url + '/case-services/cases/' + businessKey + '?type=caseBusinessKey', { observe: 'response' });
+    };
+    ResultatsService.prototype.getActivitiesBusiness = function (businessKey) {
+        return this.http.get(this.url + '/case-services/cases/' + businessKey + '/activities?type=caseBusinessKey', { observe: 'response' });
+    };
+    ResultatsService.prototype.getModels = function () {
+        return this.http.get(this.url + '/case-services/cases/models', { observe: 'response' });
+    };
+    ResultatsService.prototype.getContextModel = function (modeId) {
+        return this.http.get(this.url + "/case-services/cases/model/{modelId}?modelId=" + modeId, { observe: 'response' });
+    };
+    ResultatsService.prototype.getListCaseDefinition = function () {
+        return this.http.get('http://s00vl9977475:9000/process-apps');
+        // return this.http.post('http://s00vl9977475:18090/case-services/case/getTypes', {meta: null});
+    };
+    ResultatsService.prototype.getProductos = function () {
+        //28080
+        //18090/case-services  http://s00vl9977475:18090/case-services/case/instance/d044f3fa-1629-11e8-a7e0-005056009536
+        var params = 'json={}' /*+json*/;
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/json');
+        //headers = headers.append("Access-Control-Allow-Headers","x-requested-with");
+        //  this.http.post('http://s00vl9977475:18090/case-services/case/instance', {meta: null, data : { caseInstanceId: 'd044f3fa-1629-11e8-a7e0-005056009536'}}).subscribe(res => this.result = res);
+        this.http.post('http://s00vl9977475:18090/case-services/case/instance', { meta: null, data: { caseInstanceId: 'd044f3fa-1629-11e8-a7e0-005056009536' } });
+        return this.http.post('http://s00vl9977475:18090/case-services/case/instance', { meta: null, data: { caseInstanceId: 'd044f3fa-1629-11e8-a7e0-005056009536' } });
+    };
+    ResultatsService.prototype.addProducto = function () {
+        //let json = JSON.stringify("");
+        //El backend recogerá un parametro json
+        var params = 'json={}' /*+json*/;
+        //Establecemos cabeceras
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]().set('Content-Type', 'application/x-www-form-urlencoded');
+        return this.http.post(this.url + 'productos', params, { headers: headers });
+    };
+    ResultatsService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
+    ], ResultatsService);
     return ResultatsService;
 }());
 
@@ -987,7 +1047,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/alexandremoutaud/Desktop/projetCafe/moutauda.github.io/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/alexandremoutaud/Desktop/projetCafe/projetCafe/src/main.ts */"./src/main.ts");
 
 
 /***/ })
