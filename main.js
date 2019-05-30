@@ -108,7 +108,7 @@ var AppComponent = /** @class */ (function () {
         this.teamJ2 = [];
         this.leftTeamJ1 = [];
         this.leftTeamJ2 = [];
-        this.matchRestants = 0;
+        this.matchRestants = 1;
     }
     AppComponent.prototype.ngOnInit = function () {
         this.resultats = _assets_SampleJson_json__WEBPACK_IMPORTED_MODULE_2__.resultats;
