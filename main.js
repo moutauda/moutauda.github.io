@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngFor=\"let resultat of resultats\">\n  {{resultat.equipe1}} {{resultat.score1}} - {{resultat.score2}} {{resultat.equipe2}}\n</div>"
+module.exports = "<h1 style=\"text-align: center\">Tableau des resultats</h1>\n\n<div style=\"text-align: center\" *ngFor=\"let resultat of resultats\">\n  {{resultat.equipe1}} {{resultat.score1}} - {{resultat.score2}} {{resultat.equipe2}}\n</div>\n\n<div style=\"text-align: left\"> Nb victoires J1 : {{ vicJ1 }}</div>\n<div style=\"text-align: right\"> Nb victoires J2 : {{ vicJ2 }}</div>\n\n<div style=\"text-align: center\"> Nb de matchs restants : {{ matchRestants }}</div>\n\n<br>\n<br>\n<div> Equipes J1 restantes : {{ leftTeamJ1 }}</div>\n\n<br>\n<br>\n<div> Equipes J2 restantes : {{ leftTeamJ2 }}</div>\n\n\n"
 
 /***/ }),
 
@@ -98,10 +98,59 @@ var _assets_SampleJson_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.resultats = undefined;
+        this.teams = ['Usa', 'Mexique', 'Colombie', 'Bolivie', 'Hollande', 'Belgique', 'Irlande',
+            'Espagne', 'Maroc', 'Brésil', 'Argentine', 'Allemagne', 'Suisse', 'Nigeria',
+            'Italie', 'Cameroun', 'Norvège', 'Suède', 'Bulgarie', 'Roumanie', 'Grèce',
+            'Arabie Saoudite', 'Russie', 'Corée', 'Japon', 'France', 'Angleterre', 'Uruguay'];
+        this.vicJ1 = 0;
+        this.vicJ2 = 0;
+        this.teamJ1 = [];
+        this.teamJ2 = [];
+        this.leftTeamJ1 = [];
+        this.leftTeamJ2 = [];
+        this.matchRestants = 0;
     }
     AppComponent.prototype.ngOnInit = function () {
         this.resultats = _assets_SampleJson_json__WEBPACK_IMPORTED_MODULE_2__.resultats;
         console.log(this.resultats);
+        console.log(this.teams);
+        this.getVictory();
+        this.getTeams();
+        this.getNbmatchLeft();
+    };
+    AppComponent.prototype.getVictory = function () {
+        for (var i = 0; i < this.resultats.length; i++) {
+            if (this.resultats[i].score1 > this.resultats[i].score2) {
+                this.vicJ1 += 1;
+            }
+            else {
+                this.vicJ2 += 1;
+            }
+        }
+        console.log('nb victoire j1 : ' + this.vicJ1);
+        console.log('nb victoire j2 : ' + this.vicJ2);
+    };
+    AppComponent.prototype.getTeams = function () {
+        for (var i = 0; i < this.resultats.length; i++) {
+            this.teamJ1.push(this.resultats[i].equipe1);
+            this.teamJ2.push(this.resultats[i].equipe2);
+        }
+        console.log(this.teamJ1);
+        console.log(this.teamJ2);
+        for (var i = 0; i < this.teams.length; i++) {
+            if (!this.teamJ1.includes(this.teams[i])) {
+                this.leftTeamJ1.push(this.teams[i]);
+            }
+            if (!this.teamJ2.includes(this.teams[i])) {
+                this.leftTeamJ2.push(this.teams[i]);
+            }
+        }
+        console.log(this.teams.length);
+        console.log(this.leftTeamJ1);
+        console.log(this.leftTeamJ2);
+    };
+    AppComponent.prototype.getNbmatchLeft = function () {
+        this.matchRestants = this.teams.length - (this.vicJ1 + this.vicJ2);
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
