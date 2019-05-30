@@ -102,11 +102,11 @@
             "score1": 0,
             "equipe2": "Bolivie",
             "score2": 3
-        }, {
+        },{
             "id": 18,
-            "equipe1": "Maroc",
+            "equipe1": "Grèce",
             "score1": 0,
-            "equipe2": "Maroc",
+            "equipe2": "Grèce",
             "score2": 4
         }
     ]
