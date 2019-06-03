@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/alexandremoutaud/Desktop/projetCafe/toto/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\X185436\Downloads\Nouveau dossier\projetCafe-master\src\styles.css */"./src/styles.css");
 
 
 /***/ })

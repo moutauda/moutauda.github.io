@@ -216,7 +216,7 @@ var AppModule = /** @class */ (function () {
 /*! exports provided: resultats, default */
 /***/ (function(module) {
 
-module.exports = {"resultats":[{"id":1,"equipe1":"Brésil","score1":0,"equipe2":"Allemagne","score2":1},{"id":2,"equipe1":"Allemagne","score1":0,"equipe2":"Brésil","score2":3},{"id":3,"equipe1":"France","score1":2,"equipe2":"Argentine","score2":3},{"id":4,"equipe1":"Hollande","score1":1,"equipe2":"Suède","score2":3},{"id":5,"equipe1":"Suède","score1":3,"equipe2":"Mexique","score2":2},{"id":6,"equipe1":"Angleterre","score1":3,"equipe2":"France","score2":1},{"id":7,"equipe1":"Italie","score1":1,"equipe2":"Belgique","score2":2},{"id":8,"equipe1":"Nigeria","score1":0,"equipe2":"Hollande","score2":1},{"id":9,"equipe1":"Bulgarie","score1":2,"equipe2":"Usa","score2":3},{"id":10,"equipe1":"Roumanie","score1":2,"equipe2":"Colombie","score2":1},{"id":11,"equipe1":"Irlande","score1":2,"equipe2":"Uruguay","score2":0},{"id":12,"equipe1":"Argentine","score1":2,"equipe2":"Italie","score2":1},{"id":13,"equipe1":"Colombie","score1":1,"equipe2":"Nigeria","score2":0},{"id":14,"equipe1":"Norvège","score1":1,"equipe2":"Suisse","score2":5},{"id":15,"equipe1":"Uruguay","score1":1,"equipe2":"Espagne","score2":3},{"id":16,"equipe1":"Espagne","score1":0,"equipe2":"Russie","score2":1},{"id":17,"equipe1":"Russie","score1":0,"equipe2":"Bolivie","score2":3}]};
+module.exports = {"resultats":[{"id":1,"equipe1":"Brésil","score1":0,"equipe2":"Allemagne","score2":1},{"id":2,"equipe1":"Allemagne","score1":0,"equipe2":"Brésil","score2":3},{"id":3,"equipe1":"France","score1":2,"equipe2":"Argentine","score2":3},{"id":4,"equipe1":"Hollande","score1":1,"equipe2":"Suède","score2":3},{"id":5,"equipe1":"Suède","score1":3,"equipe2":"Mexique","score2":2},{"id":6,"equipe1":"Angleterre","score1":3,"equipe2":"France","score2":1},{"id":7,"equipe1":"Italie","score1":1,"equipe2":"Belgique","score2":2},{"id":8,"equipe1":"Nigeria","score1":0,"equipe2":"Hollande","score2":1},{"id":9,"equipe1":"Bulgarie","score1":2,"equipe2":"Usa","score2":3},{"id":10,"equipe1":"Roumanie","score1":2,"equipe2":"Colombie","score2":1},{"id":11,"equipe1":"Irlande","score1":2,"equipe2":"Uruguay","score2":0},{"id":12,"equipe1":"Argentine","score1":2,"equipe2":"Italie","score2":1},{"id":13,"equipe1":"Colombie","score1":1,"equipe2":"Nigeria","score2":0},{"id":14,"equipe1":"Norvège","score1":1,"equipe2":"Suisse","score2":5},{"id":15,"equipe1":"Uruguay","score1":1,"equipe2":"Espagne","score2":3},{"id":16,"equipe1":"Espagne","score1":0,"equipe2":"Russie","score2":1},{"id":17,"equipe1":"Russie","score1":0,"equipe2":"Bolivie","score2":3},{"id":18,"equipe1":"Belgique","score1":2,"equipe2":"Roumanie","score2":1}]};
 
 /***/ }),
 
@@ -281,7 +281,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/alexandremoutaud/Desktop/projetCafe/toto/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\X185436\Downloads\Nouveau dossier\projetCafe-master\src\main.ts */"./src/main.ts");
 
 
 /***/ })
