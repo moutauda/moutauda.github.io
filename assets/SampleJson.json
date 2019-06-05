@@ -108,6 +108,18 @@
             "score1": 2,
             "equipe2": "Roumanie",
             "score2": 1
+        }, {
+            "id": 19,
+            "equipe1": "Usa",
+            "score1": 3,
+            "equipe2": "Angleterre",
+            "score2": 1
+        }, {
+            "id": 20,
+            "equipe1": "Mexique",
+            "score1": 2,
+            "equipe2": "Irlande",
+            "score2": 1
         }
     ]
 }
