@@ -138,6 +138,24 @@
             "score1": 2,
             "equipe2": "Norvège",
             "score2": 1
+        }, {
+            "id": 24,
+            "equipe1": "Grèce",
+            "score1": 5,
+            "equipe2": "Japon",
+            "score2": 0
+        }, {
+            "id": 25,
+            "equipe1": "Cameroun",
+            "score1": 1,
+            "equipe2": "Bulgarie",
+            "score2": 3
+        }, {
+            "id": 26,
+            "equipe1": "Arabie Saoudite",
+            "score1": 1,
+            "equipe2": "Corée",
+            "score2": 4
         }
     ]
 }
